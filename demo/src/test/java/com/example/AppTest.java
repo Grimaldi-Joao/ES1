@@ -1,0 +1,30 @@
+package com.example;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+{
+    /**
+     * Rigorous Test :-)
+     */
+    @Test
+    public void testAdd() {
+        App calculator = new App();
+        
+        // Teste 1
+        assertEquals(5, calculator.add(2, 3));
+        
+        // Teste 2
+        assertEquals(10, calculator.add(5, 5));
+        
+        // Teste 3
+        assertEquals(0, calculator.add(-5, 5));
+    }
+    }
+
