@@ -18,6 +18,7 @@ public class AppTest
         App calculator = new App();
         
         // Teste 1
+        
         assertEquals(5, calculator.add(2, 3));
         
         // Teste 2
